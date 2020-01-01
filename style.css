@@ -1,0 +1,120 @@
+body
+{
+  background-color: gray;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  color: white;
+  margin: 0px;
+}
+
+#container
+{
+  width: 100%;
+}
+
+.flexbox-container4
+{
+  height: 60px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexbox-container4 div
+{
+  border: 1px solid white;
+  height: 100%;
+  width: 400px;
+  text-align: center;
+}
+
+
+#parametry
+{
+  width: 1496px;
+  height: 387px;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
+}
+
+.flexbox-container2
+{
+  width: 1496px;
+  height: 292px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid black;
+
+}
+
+.flexbox-container2 div
+{
+  border: 1px solid blue; 
+  width: 460px;
+  text-align: center;
+}
+
+#pogoda
+{
+  border: 1px solid blue;
+  width:442px;
+  height: 100%;
+  float: left;
+}
+
+#pozpar
+{
+  width: 1050px;
+  height: 100%;
+  border: 1px solid red;
+  float: left;
+}
+
+.flexbox-container1
+{
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  height: 70%;
+}
+
+.flexbox-container1 div
+{
+  border: 1px solid white;
+  width: 250px;
+}
+
+.flexbox-container3
+{
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  height: 30%;
+}
+
+#weather-icon
+{
+  border: 1px solid white;
+  height: 70%;
+  width: 100%;
+}
+
+#temp-chart
+{
+  border: 1px solid white;
+  height: 30%;
+  width: 100%;
+}
+
+#temp
+{
+  border: 1px solid white;
+  height: 40%;
+  width: 40%;
+  margin-left: 260px;
+}
