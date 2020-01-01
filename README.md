@@ -2,4 +2,4 @@
 First repository
 html
 css
-Cel projektu: nauka html, css, strona prezentująca najważniejsze dane pogodowe oraz dotyczące smogu.
+Aim of the project: learning html, css. Presentation of the most important weather and air pollution data  
