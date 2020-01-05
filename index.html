@@ -16,6 +16,8 @@
   <link rel="stylesheet" href="style.css" type="text/css"/> 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700&display=swap&subset=latin-ext" rel="stylesheet">
 
+  <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+
 </head>
 
 <body>
@@ -29,7 +31,7 @@
   		<div class="header"> 15:05
   			<div class="subheader"> nd. 21.10 </div>
   		</div>
-  		<div class="reload"> <img src="img/reload.png"> 
+  		<div class="reload"> <img src="assets/img/reload.png"> 
   		</div>
    	</div>
 
@@ -39,10 +41,9 @@
 
    			<div id="weather-icon"> 
    				<div>
-   					<img src="img/thunderstorm.png"/>
+   					<img src="assets/img/thunderstorm.png"/>
    				</div>
-   				<div id="temp">
-   				</div>
+   			<div id="temp"> <p class="tempvalue"> -2C/-7C </p></div>
    			</div>
 
    			<div id="temp-chart"> 
@@ -54,20 +55,22 @@
 			
 			<div class="flexbox-container1">
 
-   				<div> 
-   					<p>wiatr</p>
+   				<div>
+   					<img src="assets/img/wind.png" alt="wind" title="wind" class="icon">
+   					<p class="pozparvalues">wiatr</p>
    				</div>
    			
 	   			<div> 
-	   				<p>wilgotność</p>
+	   				<img src="assets/img/drops.png" alt="humidity" title="humidity" class="icon"/>
+	   				<p class="pozparvalues">wilgotność</p>
 	   			</div>
 
 	   			<div> 
-	   				<p>pm 2,5</p>
+	   				<p>PM 2,5</p>
 	   			</div>
 
 	   			<div> 
-	   				<p>pm 10</p>
+	   				<p>PM 10</p>
 	   			</div>
 	   		</div>
 
@@ -84,27 +87,36 @@
 
   	<div class="flexbox-container2">
 
-  		<div>
-  			<a href="https://www.windy.com/?52.601,25.225,4" target="_blank" title="windy.com"><img src="img/windy.png"/>
-  			</a> 
-  			<h1>windy.com</h1>
+  		<div class="picture">
+	  		
+	  		<img src="assets/img/windy.png"/> 
+	  		
+	  	  	<a class="overlay" href="https://www.windy.com/?52.601,25.225,4" alt="windy.com" target="_blank" title="windy.com"></a> 
+
+	  		<a class="link1" href="https://www.windy.com/?52.601,25.225,4" target="_blank" title="windy.com"> <h1>windy.com</h1> </a>
+
   		</div>
 
-  		<div>
-  			<a href="https://radiosondy.info/" target="_blank" title="radiosondy.info"><img src="img/radiosondy.png"/>
-  			</a> 
-  			<h1>radiosondy.info</h1>
+  		<div class="picture">
+
+  			<img src="assets/img/radiosondy.png"/>
+
+  			<a class="overlay" href="https://radiosondy.info/" alt="radiosondy.info"target="_blank" title="radiosondy.info"></a> 
+
+  			<a class="link2" href="https://radiosondy.info/" alt="radiosondy.info"target="_blank"><h1>radiosondy.info</h1></a> 
+
   		</div>
 
-  		<div>
-  			<a href="http://pl.blitzortung.org/live_dynamic_maps3.php?map=10" target="_blank" title="blitzortung.org"><img src="img/blitzortung.png"/> 
-  			</a>
-  			<h1>blitzortung.org</h1>
-  		</div>
+  		<div class="picture">
 
+			<img src="assets/img/blitzortung.png"/> 
+	  		
+	  	  	<a class="overlay" href="http://pl.blitzortung.org/live_dynamic_maps3.php?map=10" alt="blitzortung.org" target="_blank" title="blitzortung.org"></a> 
+
+	  		<a class="link3" href="http://pl.blitzortung.org/live_dynamic_maps3.php?map=10" title="blitzortung.org"><h1>blitzortung.org</h1> </a>
+
+  		</div>
   		
-
-
   	</div>
 
  
