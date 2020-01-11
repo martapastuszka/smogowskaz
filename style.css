@@ -51,23 +51,15 @@ body
   padding-top: 40px;
 }
 
-#parametry
-{
-  width: 1496px;
-  height: 387px;
-  border: 2px solid black;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-}
 
 .flexbox-container2
 {
   width: 1496px;
-  height: 292px;
+  height: 275px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;
+  margin-top:20px;
   display: flex;
   justify-content: space-between;
   /*border: 2px solid black;*/
@@ -91,7 +83,7 @@ body
   position: absolute;
   display: block;
   width: 460px;
-  height: 292px;
+  height: 275px;
   top: 0px;
   background-color: white;
   opacity: 40%;
@@ -131,96 +123,138 @@ body
   color: #565656;
 }
 
-#pogoda
+#parametry
 {
-  /*border: 1px solid blue;*/
-  width:442px;
-  height: 100%;
-  float: left;
+  width: 1496px;
+  height: 340px;
+  /*border: 2px solid red;*/
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 15px;
   position: relative;
 }
 
-#temp-chart
+#weather-icon
 {
-  border: 1px solid green;
-  height: 30%;
-  width: 100%;
-}
-
-#temp
-{
-  /*border: 1px solid red;*/
-  height: 40%;
-  width: 40%;
+  /*border: 1px solid white;*/
+  height: 100%;
+  width: 30%;
   position: absolute;
   top: 0px;
-  right: 0px;
+  left:0px;
+ }
+
+ .wicon
+ {
+  position: absolute;
+  top: 0px;
+  left: 20px;
+ }
+
+.weatherchart
+{
+  height: 80px;
+  width: 97%;
+  background-color: #1e252b;
+  position: absolute;
+  bottom: 2px;
+}
+
+.weatherchart > p
+{
+  text-align: left;
+  padding-top: 20px;
+  padding-left: 10px;
 }
 
 .tempvalue
 {
   display: block;
-  text-align: center;
   font-size: 40px;
   letter-spacing: 3px;
-  margin-top: 50px;
+  margin: 0px;
+  position: absolute;
+  top: 195px;
+  right: 20px;
+  /*border: 1px solid white;*/
 }
 
-#pozpar
+.celsius
 {
-  width: 1050px;
+  position: absolute;
+  top: 120px;
+  right: 20px;
+}
+
+.otherparameters
+{
   height: 100%;
-  border: 1px solid red;
-  float: left;
-}
-
-.overlay1
-{
-  position:absolute;
- 
-}
-
-
-.pozparvalues
-{
+  width: 70%;
+ /* border: 1px solid white;*/
   position: absolute;
-  font-size:22px;
-  top: 20px;
-  left: 20px;
-  display: block;
-  border-bottom: 2px dashed #dadada;
-  padding-bottom: 10px;
-  letter-spacing: 3px;
+  top: 0px;
+  right: 0px;
 }
 
-.icon
+.parvalues
 {
-  position: absolute;
-  bottom: 30px;
-  left: 360px;
-  display: block;
-  border-top: 2px dashed #dadada;
-  padding-top: 10px;
-}
-
-.flexbox-container1
-{
-  border: 1px solid white;
-  display: flex;
-  justify-content: space-between;
   height: 70%;
-}
-
-.flexbox-container1 div
-{
-  border: 1px solid white;
-  width: 250px;
+  width: 24%;
+  float: left;
   text-align: center;
-  padding-top: 200px;
-  letter-spacing: 1px;
-
+  background-color: #1e252b;
+  margin: 0 5px;
 }
 
+.parvalues > p
+{
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 30px;
+  margin-bottom:0px;
+}
+
+.parvalues > img
+{
+  padding-top: 30px;
+  margin-bottom: 5px;
+}
+
+.variable
+{
+  margin-bottom: 8px;
+  font-size: 40px;
+  padding: 30px;
+  height: 30px;
+}
+
+.variable > p
+{
+  margin: 0px;
+}
+
+
+.clr
+{
+  clear: both;
+  margin: 0px;
+}
+
+.caqi
+{
+  text-align: left;
+  background-color: #1e252b;
+  height: 80px;
+  margin: 0 5px;
+}
+
+.caqi > p
+{
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 10px;
+  margin-bottom: 0px;
+}
 
 .flexbox-container3
 {
@@ -230,12 +264,10 @@ body
   height: 30%;
 }
 
-#weather-icon
+p
+
 {
-  border: 1px solid white;
-  height: 70%;
-  width: 100%;
- 
+  margin-bottom: 0px;
 }
 
 

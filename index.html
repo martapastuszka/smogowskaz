@@ -16,8 +16,6 @@
   <link rel="stylesheet" href="style.css" type="text/css"/> 
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700&display=swap&subset=latin-ext" rel="stylesheet">
 
-  <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-
 </head>
 
 <body>
@@ -37,54 +35,53 @@
 
    	<div id="parametry">
    		
-   		<div id="pogoda">
+      	<div id="weather-icon"> 
+   				
+   			<img src="assets/img/thunderstorm.png" class="wicon"/>
 
-   			<div id="weather-icon"> 
-   				<div>
-   					<img src="assets/img/thunderstorm.png"/>
-   				</div>
-   			<div id="temp"> <p class="tempvalue"> -2C/-7C </p></div>
-   			</div>
+   			<div class="weatherchart"> <p> wykres pogody </p> </div>
+   			
+   			<p class="tempvalue"> -2/-7 </p>
 
-   			<div id="temp-chart"> 
-   			</div>
+   			<img src="assets/img/celsius.png" class="celsius">
 
    		</div>
 
-   		<div id="pozpar"> 
-			
-			<div class="flexbox-container1">
+		<div class="otherparameters">
 
-   				<div>
-   					<img src="assets/img/wind.png" alt="wind" title="wind" class="icon">
-   					<p class="pozparvalues">wiatr</p>
-   				</div>
+   			<div class="parvalues">
+   				<img src="assets/img/wind.png" alt="wind" title="wind" class="icon">
+   				<p class="variable"> 13 km/h </p>
+   				<p>wiatr</p>
+   			</div>
    			
-	   			<div> 
-	   				<img src="assets/img/drops.png" alt="humidity" title="humidity" class="icon"/>
-	   				<p class="pozparvalues">wilgotność</p>
-	   			</div>
-
-	   			<div> 
-	   				<p>PM 2,5</p>
-	   			</div>
-
-	   			<div> 
-	   				<p>PM 10</p>
-	   			</div>
+	   		<div class="parvalues"> 
+	   			<img src="assets/img/drops.png" alt="humidity" title="humidity" class="icon"/>
+	   			<p class="variable"> 89%</p>
+	   			<p>wilgotność</p>
 	   		</div>
 
-	   		<div class="flexbox-container3">
+	   		<div class="parvalues"> 
+	   			<img src="assets/img/dust2.png" alt="air pollution" title="PM2,5" class="icon"/>
+	   			<p class="variable"> 30% </p>
+	   			<p>PM 2,5</p>
+	   		</div>
 
-	   			<div>
-	   				<p>CAQI</p>
-	   			</div>
+	   		<div class="parvalues"> 
+	   			<img src="assets/img/dust10.png" alt="pollution" title="PM10" class="icon"/>
+	   			<p class="variable"> 120%</p>
+	   			<p>PM 10</p>
+	   		</div>
 
+	   		<div class="clr"> </div>
+
+	   		<div class="caqi">
+	   			<p>CAQI</p>
 	   		</div>
 
    		</div>
   	</div>
-
+  	
   	<div class="flexbox-container2">
 
   		<div class="picture">
@@ -116,43 +113,9 @@
 	  		<a class="link3" href="http://pl.blitzortung.org/live_dynamic_maps3.php?map=10" title="blitzortung.org"><h1>blitzortung.org</h1> </a>
 
   		</div>
-  		
+    		
   	</div>
 
- 
-
-
-  
-
-
-  </div>
-
-  <h1>Rokicińska</h1>
-  <h3><p>CAQI: 62.14 [MEDIUM]</p></h3>
-  <h3><p>T odcz: -2.84 *C</p></h3>
-
-  <p>PM1: 25.53 ug/m^3
-      </p>
-
-  <p>PM2,5: 42.14 ug/m^3
-          [169 %]
-      </p>
-
-  <p>PM10: 68.41 ug/m^3
-          [137 %]
-      </p>
-
-  <p>temperatura: -2.14 *C</p>
-  <p>wilgotność: 89 %</p>
-  <p>wiatr: 1 km/h</p>
-  <p>odczyt: <i>nie 19:41</i></p>
-
-  <!--<img src="aqi/screen_preview"><br>
-  <a href="aqi/screen_dump">hexDump</a>-->
-  <img src="./nalisa.000webhostapp.com_files/bitmap.bmp"><br>
-  <a href="https://nalisa.000webhostapp.com/assets/html/hexdump.html">hexDump</a>
-
-
-</body>
+ </body>
 
 </html>
