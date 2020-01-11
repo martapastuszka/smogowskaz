@@ -1,276 +1,230 @@
 body
 {
-  background-color: #232c33;
+  background-image: url(assets/img/background2.jpg);
+  background-position: 0 -390px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:#3D3D3B ;
+
+  
+  /*background: #3D3D3B;*/
   font-family: 'Montserrat', sans-serif;
-  font-size: 20px;
   color: #d8dad9;
-  margin: 0px;
+  margin: 0;
 }
 
 #container
 {
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.flexbox-container4
+h1
 {
-  height: 60px;
-  background-color: #1e252b;
-  display: flex;
-  justify-content: flex-end;
-  padding-bottom: 10px;
-  padding-top: 10px;
-  align-items: center;
-}
-
-.flexbox-container4 div
-{
-  height: 100%;
-  text-align: right;
-}
-
-.header
-{
-  font-size: 30px;
   font-weight: 600;
-  margin-top: 0px; 
-  padding: 0px;
-  margin-left: 20px;
+  font-size: 1.8rem;
+  margin: 0;
 }
 
-.subheader
+h2
 {
-  font-size: 15px;
   font-weight: 400;
-}
-
-.reload
-{
-  margin-right: 10px;
-  padding: 20px;
-  padding-top: 40px;
+  font-size: 1rem;
+  margin: 0;
 }
 
 
-.flexbox-container2
+img
 {
-  width: 1496px;
-  height: 275px;
+  display:block;
+}
+
+a
+{
+  text-decoration: none;
+  color: #d8dad9;
+}
+
+a:hover
+{
+  color: #fff;
+}
+
+main
+{
+  max-width: 900px;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 15px;
-  margin-top:20px;
-  display: flex;
-  justify-content: space-between;
-  /*border: 2px solid black;*/
-
+  box-shadow: 30px 0px 40px rgba(0,0,0, 0.1),
+  -30px 0px 40px rgba(0,0,0, 0.1);
 }
 
-.flexbox-container2 div
-{
-  width: 460px;
-  text-align: center;
-}
-
-.picture
-{
-  position: relative;
-  display: inline-block;
-}
-
-.overlay
-{
-  position: absolute;
-  display: block;
-  width: 460px;
-  height: 275px;
-  top: 0px;
-  background-color: white;
-  opacity: 40%;
-}
-
-.link1
-{
-  position: absolute;
-  display: block;
-  text-align: center;
-  top: 100px;
-  left: 25%;
-  text-decoration: none;
-  color: #565656;
-}
-
-
-.link2
-{
-  position: absolute;
-  display: block;
-  text-align: center;
-  top: 100px;
-  left: 15%;
-  text-decoration: none;
-  color: #565656;
-}
-
-.link3
-{
-  position: absolute;
-  display: block;
-  text-align: center;
-  top: 100px;
-  left: 15%;
-  text-decoration: none;
-  color: #565656;
-}
-
-#parametry
-{
-  width: 1496px;
-  height: 340px;
-  /*border: 2px solid red;*/
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 15px;
-  position: relative;
-}
-
-#weather-icon
+#header
 {
   /*border: 1px solid white;*/
-  height: 100%;
-  width: 30%;
-  position: absolute;
-  top: 0px;
-  left:0px;
- }
+  box-sizing: border-box;
+  position: relative;
+} 
 
- .wicon
- {
-  position: absolute;
-  top: 0px;
-  left: 20px;
- }
-
-.weatherchart
+#header-text
 {
-  height: 80px;
-  width: 97%;
-  background-color: #1e252b;
-  position: absolute;
-  bottom: 2px;
-}
-
-.weatherchart > p
-{
+  height: 10vh;
   text-align: left;
-  padding-top: 20px;
-  padding-left: 10px;
+  padding-right: 1rem;
+  padding-left: 1rem;
+  letter-spacing: 2px;
+  padding-top: 0.5rem;
 }
 
-.tempvalue
+#header-icon
 {
-  display: block;
-  font-size: 40px;
-  letter-spacing: 3px;
-  margin: 0px;
   position: absolute;
-  top: 195px;
-  right: 20px;
+  top: 2.8rem;
+  left: 11rem;
+}
+
+#reload
+{
+  width: 16px;
+  height:16px;
+}
+
+
+#basic-parameters
+{
   /*border: 1px solid white;*/
-}
-
-.celsius
-{
-  position: absolute;
-  top: 120px;
-  right: 20px;
-}
-
-.otherparameters
-{
-  height: 100%;
-  width: 70%;
- /* border: 1px solid white;*/
-  position: absolute;
-  top: 0px;
-  right: 0px;
-}
-
-.parvalues
-{
-  height: 70%;
-  width: 24%;
+  box-sizing: border-box;
   float: left;
+  width: 60%;
+  height: 57vh;
+  position: relative;
+}
+
+#basic-parameters h1
+{
+  font-size: 2.8rem;
+  font-weight: 400;
+  position: absolute;
+  top: 11rem;
+  left: 18rem;
+}
+
+#img-icon
+{
+  width: 13rem;
+  height: 13rem;
+  position: absolute;
+  bottom: 10rem;
+  left: 4rem;
+}
+
+#celsius
+{
+  position: absolute;
+  top: 6rem;
+  left: 18rem;
+}
+
+#caqi
+{
+  /*border: 1px solid white;*/
+  box-sizing: border-box;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
   text-align: center;
-  background-color: #1e252b;
-  margin: 0 5px;
 }
 
-.parvalues > p
+#caqi h2
 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  margin-top: 30px;
-  margin-bottom:0px;
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  padding-top: 0.4rem;
+  text-align: center;
 }
 
-.parvalues > img
+#caqi p
 {
-  padding-top: 30px;
-  margin-bottom: 5px;
+ font-size: 1.5em;
+ margin: 0;
+ padding-top: 0.7rem;
+ padding-bottom: 1.2rem;
+ font-weight: 600;
+ display: inline-block;
+ text-aling: center;
 }
 
-.variable
+#bar
 {
-  margin-bottom: 8px;
-  font-size: 40px;
-  padding: 30px;
-  height: 30px;
+  background-color: #24272e;
+  width: 80%;
+  height: 1rem;
+  display: inline-block;
+  border-radius: 50px;
+  position: relative;
 }
 
-.variable > p
+#bar div
 {
-  margin: 0px;
+  background-color: #00ff00;
+  width: 40%;
+  height: 1rem;
+  display: inline-block;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 
-.clr
+#other-parameters
+{
+  border-left: 1px solid white;
+  box-sizing: border-box;
+  float: left;
+  width: 40%;
+  height: 60vh;
+  text-align: center;
+  padding-top: 3rem;
+}
+
+#other-parameters h2
+{
+  letter-spacing: 2px;
+  font-size: 0.9rem;
+  text-transform: lowercase;
+  margin-bottom: 0;
+}
+
+#other-parameters p
+{
+ font-size: 1.5em;
+ margin: 0;
+ padding-top: 0.7rem;
+ padding-bottom: 2rem;
+ font-weight: 600;
+}
+
+#clr
 {
   clear: both;
-  margin: 0px;
 }
 
-.caqi
+.links
 {
-  text-align: left;
-  background-color: #1e252b;
-  height: 80px;
-  margin: 0 5px;
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 400;
+  padding-bottom: 2rem;
 }
 
-.caqi > p
+h3
 {
-  text-align: left;
-  padding-top: 40px;
-  padding-left: 10px;
-  margin-bottom: 0px;
+  /*border-bottom: 1px solid white;
+  box-sizing: border-box;*/
+  padding: 0.1rem;
 }
-
-.flexbox-container3
-{
-  border: 1px solid white;
-  display: flex;
-  justify-content: space-between;
-  height: 30%;
-}
-
-p
-
-{
-  margin-bottom: 0px;
-}
-
-
-
-
 

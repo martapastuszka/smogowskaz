@@ -1,121 +1,80 @@
-<!DOCTYPE HTML>
-<html>
+<!DOCTYPE html>
 <html lang="pl">
 <head>
-  <!--meta charset="UTF-8" /-->
-  <meta title="Smogowskaz"/>
-  <!--meta name="description" content="Serwis prezentuje najważniejsze dane pogodowe i dane dotyczące smogu najbliżej Twojego miejsca zamieszkania lub pracy"/-->
-  <meta name="keywords" content="smog, pogoda, dane pogodowe, jaka pogoda"/>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta http-equiv="expires" content="0">
-	<meta http-equiv="cache-control" content="no-store, no-cache, must-revalidate">
-	<meta http-equiv="cache-control" content="post-check=0, pre-check=0">
-	<meta http-equiv="pragma" content="no-cache">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<link rel="stylesheet" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700&display=swap&subset=latin-ext" rel="stylesheet">
 
-  <link rel="stylesheet" href="style.css" type="text/css"/> 
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700&display=swap&subset=latin-ext" rel="stylesheet">
+	<title>Smogowskaz</title>
 
 </head>
 
 <body>
 
-  <div id="container"> 
+	<main>
+		<div id="container">
+			
+			<div id="header">
+				<div id="header-text">
+					<h1>Rokicińska</h1>
+					<h2>Nd. 21.10 15:05</h2>
+				</div>
+				<div id="header-icon">
+					<img src="assets/img/reload.png" alt="reload" id="reload">
+				</div>
+			</div>
 
-  	<div class="flexbox-container4"> 
-  		<div class=header> Rokicińska 
-  			<div class="subheader">stacja</div>
-  		</div>
-  		<div class="header"> 15:05
-  			<div class="subheader"> nd. 21.10 </div>
-  		</div>
-  		<div class="reload"> <img src="assets/img/reload.png"> 
-  		</div>
-   	</div>
+			<div id="basic-parameters">
+				<img src="assets/img/thunderstorm.png" alt="weather-icon" id="img-icon">
+				<h1>-12 | -10</h1>
+				<img src="assets/img/celsius.png" alt="celsius" id="celsius">
 
-   	<div id="parametry">
-   		
-      	<div id="weather-icon"> 
-   				
-   			<img src="assets/img/thunderstorm.png" class="wicon"/>
+				<div id="caqi">
 
-   			<div class="weatherchart"> <p> wykres pogody </p> </div>
-   			
-   			<p class="tempvalue"> -2/-7 </p>
+					<div id="bar">
 
-   			<img src="assets/img/celsius.png" class="celsius">
+						<div id="bar2"> </div>
+						
+					</div>
+						
+					<h2>CAQI</h2>
+					<p>44,3</p>
+						
+				</div> 
+			</div>
 
-   		</div>
+			<div id="other-parameters">
+				<h2>Wilgotność</h2>
+				<p>89%</p>
 
-		<div class="otherparameters">
+				<h2>Wiatr</h2>
+				<p>13 km/h</p>
 
-   			<div class="parvalues">
-   				<img src="assets/img/wind.png" alt="wind" title="wind" class="icon">
-   				<p class="variable"> 13 km/h </p>
-   				<p>wiatr</p>
-   			</div>
-   			
-	   		<div class="parvalues"> 
-	   			<img src="assets/img/drops.png" alt="humidity" title="humidity" class="icon"/>
-	   			<p class="variable"> 89%</p>
-	   			<p>wilgotność</p>
-	   		</div>
+				<h2>PM2,5</h2>
+				<p>89%</p>
 
-	   		<div class="parvalues"> 
-	   			<img src="assets/img/dust2.png" alt="air pollution" title="PM2,5" class="icon"/>
-	   			<p class="variable"> 30% </p>
-	   			<p>PM 2,5</p>
-	   		</div>
+				<h2>PM10</h2>
+				<p>120%</p>
 
-	   		<div class="parvalues"> 
-	   			<img src="assets/img/dust10.png" alt="pollution" title="PM10" class="icon"/>
-	   			<p class="variable"> 120%</p>
-	   			<p>PM 10</p>
-	   		</div>
+			</div>
 
-	   		<div class="clr"> </div>
+			<div id="clr">
+				
+			</div>
+		
+			<div class="links">
+				<a href="https://www.windy.com/?51.755,19.550,5" target="_blank"><h3>windy.com</h3></a>
+				<a href="http://pl.blitzortung.org/live_lightning_maps.php?map=17" target="_blank"><h3>blitzortung.org</h3></a>
+				<a href="https://radiosondy.info/" target="_blank"><h3>radiosondy.info</h3></a>
+			</div>
 
-	   		<div class="caqi">
-	   			<p>CAQI</p>
-	   		</div>
+		</div>
 
-   		</div>
-  	</div>
-  	
-  	<div class="flexbox-container2">
-
-  		<div class="picture">
-	  		
-	  		<img src="assets/img/windy.png"/> 
-	  		
-	  	  	<a class="overlay" href="https://www.windy.com/?52.601,25.225,4" alt="windy.com" target="_blank" title="windy.com"></a> 
-
-	  		<a class="link1" href="https://www.windy.com/?52.601,25.225,4" target="_blank" title="windy.com"> <h1>windy.com</h1> </a>
-
-  		</div>
-
-  		<div class="picture">
-
-  			<img src="assets/img/radiosondy.png"/>
-
-  			<a class="overlay" href="https://radiosondy.info/" alt="radiosondy.info"target="_blank" title="radiosondy.info"></a> 
-
-  			<a class="link2" href="https://radiosondy.info/" alt="radiosondy.info"target="_blank"><h1>radiosondy.info</h1></a> 
-
-  		</div>
-
-  		<div class="picture">
-
-			<img src="assets/img/blitzortung.png"/> 
-	  		
-	  	  	<a class="overlay" href="http://pl.blitzortung.org/live_dynamic_maps3.php?map=10" alt="blitzortung.org" target="_blank" title="blitzortung.org"></a> 
-
-	  		<a class="link3" href="http://pl.blitzortung.org/live_dynamic_maps3.php?map=10" title="blitzortung.org"><h1>blitzortung.org</h1> </a>
-
-  		</div>
-    		
-  	</div>
-
- </body>
+	</main>
+	
+</body>
 
 </html>
