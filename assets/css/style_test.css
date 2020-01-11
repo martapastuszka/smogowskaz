@@ -1,6 +1,6 @@
 body
 {
-  background-image: url(/assets/img/background2.jpg);
+  background-image: url("../img/background2.jpg");
   background-position: 0 -390px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -169,7 +169,7 @@ main
 #bar div
 {
   background-color: #00ff00;
-  /* width: 40%; */
+  width: 40%;
   height: 1rem;
   display: inline-block;
   border-radius: 50px;
