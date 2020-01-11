@@ -1,12 +1,12 @@
 body
 {
-  background-image: url(assets/img/background2.jpg);
+  background-image: url("../img/background2.jpg");
   background-position: 0 -390px;
   background-size: cover;
   background-repeat: no-repeat;
   background-color:#3D3D3B ;
 
-  
+
   /*background: #3D3D3B;*/
   font-family: 'Montserrat', sans-serif;
   color: #d8dad9;
@@ -64,7 +64,7 @@ main
   /*border: 1px solid white;*/
   box-sizing: border-box;
   position: relative;
-} 
+}
 
 #header-text
 {
@@ -227,4 +227,3 @@ h3
   box-sizing: border-box;*/
   padding: 0.1rem;
 }
-
