@@ -45,6 +45,9 @@
 				
 				</div>
 
+				<div class="clr"></div>
+			</div>
+
 				<div id="caqi">
 
 					<div id="bar">
@@ -63,21 +66,26 @@
 					<p><?php echo round($caqi);?></p>
 
 				</div>
-			</div>
+			
 
 			<div id="other-parameters">
-				<h2>Wilgotność</h2>
-				<p><?php echo round((float)$hum);?> %</p>
 
-				<h2>Wiatr</h2>
-				<p><?php echo round((float)$wind_spd * 3.6);?> km/h</p>
+				<div class="other-parameters1">
+					<h2>Wilgotność</h2>
+					<p><?php echo round((float)$hum);?> %</p>
 
-				<h2>PM2,5</h2>
-				<p>
-          <?php if ($pm25_per != 'N/A'): ?>
-            <?php echo round((float)$pm25_per);?> %
-          <?php endif; ?>
-        </p>
+					<h2>Wiatr</h2>
+					<p><?php echo round((float)$wind_spd * 3.6);?> km/h</p>
+				</div>
+
+				<div class="other-parameters1">
+
+					<h2>PM2,5</h2>
+					<p>
+	          <?php if ($pm25_per != 'N/A'): ?>
+	            <?php echo round((float)$pm25_per);?> %
+	          <?php endif; ?>
+	        </p>
 
 				<h2>PM10</h2>
 				<p>
@@ -86,11 +94,16 @@
           <?php endif; ?>
         </p>
 
-			</div>
+        		</div>
 
-			<div id="clr">
+        		<div id="clr">
+        		</div>
 
-			</div>
+		</div>
+
+			
+
+		
 
 			<div class="links">
 				<a href="https://www.windy.com/?51.755,19.550,5" target="_blank"><h3>windy.com</h3></a>

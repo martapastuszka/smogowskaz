@@ -1,7 +1,7 @@
 body
 {
   background-image: url("../img/background2.jpg");
-  background-position: 0 -390px;
+/*  background-position: 0 -100px;*/
   background-size: cover;
   background-repeat: no-repeat;
   background-color:#3D3D3B ;
@@ -17,7 +17,7 @@ body
 {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 1rem;
+/*  margin-top: 0.5rem;*/
 }
 
 h1
@@ -60,6 +60,7 @@ main
 /*  border: 1px solid white;
   box-sizing: border-box;*/
   position: relative;
+/*  margin-top: 6rem;*/
 }
 
 #header-text
@@ -67,16 +68,17 @@ main
   height: 10vh;
   text-align: left;
   padding-right: 1rem;
-  padding-left: 1rem;
+  padding-left: 2rem;
   letter-spacing: 2px;
-  padding-top: 0.5rem;
+  padding-top: 12rem;
+  line-height: 3rem;
 }
 
 #header-icon
 {
   position: absolute;
-  top: 2.8rem;
-  left: 11rem;
+  top: 16rem;
+  left: 12rem;
 }
 
 #reload
@@ -85,13 +87,9 @@ main
   height:16px;
 }
 
-
 #basic-parameters
 {
-  float: left;
-  width: 60%;
-  height: 57vh;
-  position: relative;
+   height:30vh;
 }
 
 #basic-parameters h1
@@ -102,25 +100,34 @@ main
 
 #img-icon
 {
-
+  width: 80%;
   margin-top: 2rem;
   margin-left: 1rem;
+
 }
+
+/*svg
+{
+  fill:#d8dad9;
+}*/
 
 #celsius
 {
-  margin-top: 5rem;
+  margin-top: 4rem;
 }
 
 #img
 {
   float: left;
-  width: 47%;
+  width: 60%;
+  margin-left: 4rem;
+  margin-right: 0;
 }
 #temp
 {
   float: left;
-/*  margin-right: 4rem;*/
+  margin-right: 4rem;
+  margin-top: 13rem;
 }
 
 #caqi
@@ -128,9 +135,6 @@ main
  /* border: 1px solid white;
   box-sizing: border-box;*/
   width: 100%;
-  position: absolute;
-  bottom: 0px;
-  left: 0px;
   text-align: center;
 }
 
@@ -139,7 +143,7 @@ main
   letter-spacing: 2px;
   font-size: 0.9rem;
   text-transform: uppercase;
-  padding-top: 0.4rem;
+  padding-top: 2rem;
   text-align: center;
 }
 
@@ -147,11 +151,11 @@ main
 {
  font-size: 1.5em;
  margin: 0;
- padding-top: 0.7rem;
+ padding-top: 1rem;
  padding-bottom: 1.2rem;
  font-weight: 600;
  display: inline-block;
- text-aling: center;
+ text-align: center;
 }
 
 #bar
@@ -179,13 +183,15 @@ main
 
 #other-parameters
 {
-  border-left: 1px solid #d8dad9;
-  box-sizing: border-box;
-  float: left;
+/*  border-left: 1px solid #d8dad9;
+  box-sizing: border-box;*/
   width: 40%;
-  height: 60vh;
+  height: 20vh;
   text-align: center;
   padding-top: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8rem;
 }
 
 #other-parameters h2
@@ -205,6 +211,13 @@ main
  font-weight: 600;
 }
 
+.other-parameters1
+{
+  float: left;
+  width: 50%;
+}
+
+
 #clr
 {
   clear: both;
@@ -216,14 +229,14 @@ main
   text-align: center;
   font-size: 1rem;
   font-weight: 400;
-  padding-bottom: 2rem;
+  padding-bottom: 9rem;
 }
 
 h3
 {
   /*border-bottom: 1px solid white;
   box-sizing: border-box;*/
-  padding: 0.1rem;
+  padding: 1rem;
 }
 
 
