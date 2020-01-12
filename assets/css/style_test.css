@@ -17,6 +17,7 @@ body
 {
   margin-left: auto;
   margin-right: auto;
+  margin-top: 1rem;
 }
 
 h1
@@ -33,11 +34,6 @@ h2
   margin: 0;
 }
 
-
-img
-{
-  display:block;
-}
 
 a
 {
@@ -61,8 +57,8 @@ main
 
 #header
 {
-  /*border: 1px solid white;*/
-  box-sizing: border-box;
+/*  border: 1px solid white;
+  box-sizing: border-box;*/
   position: relative;
 }
 
@@ -92,8 +88,6 @@ main
 
 #basic-parameters
 {
-  /*border: 1px solid white;*/
-  box-sizing: border-box;
   float: left;
   width: 60%;
   height: 57vh;
@@ -102,33 +96,37 @@ main
 
 #basic-parameters h1
 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
   font-weight: 400;
-  position: absolute;
-  top: 11rem;
-  left: 18rem;
 }
 
 #img-icon
 {
-  width: 13rem;
-  height: 13rem;
-  position: absolute;
-  bottom: 10rem;
-  left: 4rem;
+
+  margin-top: 2rem;
+  margin-left: 1rem;
 }
 
 #celsius
 {
-  position: absolute;
-  top: 6rem;
-  left: 18rem;
+  margin-top: 5rem;
+}
+
+#img
+{
+  float: left;
+  width: 47%;
+}
+#temp
+{
+  float: left;
+/*  margin-right: 4rem;*/
 }
 
 #caqi
 {
-  /*border: 1px solid white;*/
-  box-sizing: border-box;
+ /* border: 1px solid white;
+  box-sizing: border-box;*/
   width: 100%;
   position: absolute;
   bottom: 0px;
@@ -181,7 +179,7 @@ main
 
 #other-parameters
 {
-  border-left: 1px solid white;
+  border-left: 1px solid #d8dad9;
   box-sizing: border-box;
   float: left;
   width: 40%;
@@ -227,3 +225,41 @@ h3
   box-sizing: border-box;*/
   padding: 0.1rem;
 }
+
+
+/*@media(max-width: 768px)
+{
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box
+  {
+    float: none;
+    text-align: center;
+    width: 100%;
+  }
+
+  header
+  {
+    padding-bottom: 20px;
+  }
+
+  #showcase h1
+  {
+    margin-top:40px;
+  }
+
+  #newsletter button
+  {
+    display: block;
+    width: 100%;
+  }
+
+  #newsletter form input[type="email"]
+  {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+}*/

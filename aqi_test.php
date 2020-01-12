@@ -30,11 +30,20 @@
 			</div>
 
 			<div id="basic-parameters">
-				<img src="/assets/img/thunderstorm.png" alt="weather-icon" id="img-icon">
-				<h1>
-          <?php echo round($temp);?> | <?php echo round($wind_factor);?>
-        </h1>
-				<img src="/assets/img/celsius.png" alt="celsius" id="celsius">
+
+				<div id="img">
+					<img src="/assets/img/thunderstorm.png" alt="weather-icon" id="img-icon">
+				</div>
+
+				<div id="temp">
+
+					<img src="/assets/img/celsius.png" alt="celsius" id="celsius">
+
+					<h1>
+         	 <?php echo round($temp);?> | <?php echo round($wind_factor);?>
+       				</h1>
+				
+				</div>
 
 				<div id="caqi">
 
