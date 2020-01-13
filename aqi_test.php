@@ -70,15 +70,14 @@
 
 			<div id="other-parameters">
 
-				<div class="other-parameters1">
+				
 					<h2>Wilgotność</h2>
 					<p><?php echo round((float)$hum);?> %</p>
 
 					<h2>Wiatr</h2>
 					<p><?php echo round((float)$wind_spd * 3.6);?> km/h</p>
-				</div>
+				
 
-				<div class="other-parameters1">
 
 					<h2>PM2,5</h2>
 					<p>
@@ -104,12 +103,20 @@
 			
 
 		
-
+<!-- 
 			<div class="links">
 				<a href="https://www.windy.com/?51.755,19.550,5" target="_blank"><h3>windy.com</h3></a>
 				<a href="http://pl.blitzortung.org/live_lightning_maps.php?map=17" target="_blank"><h3>blitzortung.org</h3></a>
 				<a href="https://radiosondy.info/" target="_blank"><h3>radiosondy.info</h3></a>
 			</div>
+ -->
+
+			<ol class="links">
+				<li><a href="https://www.windy.com/?51.755,19.550,5" target="_blank"><h3>windy</h3></a></li>
+				<li><a href="http://pl.blitzortung.org/live_lightning_maps.php?map=17" target="_blank"><h3>blitzortung</h3></a></li>
+				<li><a href="https://radiosondy.info/" target="_blank"><h3>radiosondy</h3></a></li>
+			</ol>
+
 
 		</div>
 
