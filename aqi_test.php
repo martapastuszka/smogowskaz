@@ -32,7 +32,7 @@
 			<div id="basic-parameters">
 
 				<div id="img">
-					<img src="/assets/img/thunderstorm.png" alt="weather-icon" id="img-icon">
+					<img src="/assets/svg/wi-day-lightning.svg" alt="weather-icon" id="img-icon">
 				</div>
 
 				<div id="temp">
@@ -42,7 +42,7 @@
 					<h1>
          	 <?php echo round($temp);?> | <?php echo round($wind_factor);?>
        				</h1>
-				
+
 				</div>
 
 				<div class="clr"></div>
@@ -66,17 +66,17 @@
 					<p><?php echo round($caqi);?></p>
 
 				</div>
-			
+
 
 			<div id="other-parameters">
 
-				
+
 					<h2>Wilgotność</h2>
 					<p><?php echo round((float)$hum);?> %</p>
 
 					<h2>Wiatr</h2>
 					<p><?php echo round((float)$wind_spd * 3.6);?> km/h</p>
-				
+
 
 
 					<h2>PM2,5</h2>
@@ -100,10 +100,10 @@
 
 		</div>
 
-			
 
-		
-<!-- 
+
+
+<!--
 			<div class="links">
 				<a href="https://www.windy.com/?51.755,19.550,5" target="_blank"><h3>windy.com</h3></a>
 				<a href="http://pl.blitzortung.org/live_lightning_maps.php?map=17" target="_blank"><h3>blitzortung.org</h3></a>
