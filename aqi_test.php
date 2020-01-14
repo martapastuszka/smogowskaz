@@ -22,17 +22,22 @@
 					<h1>Rokicińska</h1>
 					<h2><?php echo $update_utf8;?></h2>
 				</div>
-				<div id="header-icon">
+			<!-- 	<div id="header-icon">
 					<a href="https://smogowskaz.000webhostapp.com/aqi">
             <img src="/assets/img/reload.png" alt="reload" id="reload">
           </a>
-				</div>
+
+
+
+				</div> -->
 			</div>
 
 			<div id="basic-parameters">
 
 				<div id="img">
-					<img src="/assets/svg/wi-day-lightning.svg" alt="weather-icon" id="img-icon">
+					<!-- <img src="/assets/svg/wi-day-lightning.svg" alt="weather-icon" id="img-icon"> -->
+
+						<img src="http://smogowskaz.000webhostapp.com/assets/svg/804n.svg" alt="weather-icon">
 				</div>
 
 				<div id="temp">
