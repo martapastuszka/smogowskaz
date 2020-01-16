@@ -1,18 +1,12 @@
 body
 {
+  /*  background-color:#3D3D3B ;*/
   background-image: url("../img/background2.jpg");
   background-position: 0 0px;
   background-size: cover;
   background-repeat: no-repeat;
-/*  background-color:#3D3D3B ;*/
-
-
-  /*background: #3D3D3B;*/
   font-family: 'Montserrat', sans-serif;
   color: #d8dad9;
-/*  width: 100vw;
-  height: 100vh;*/
-
 }
 
 #container
@@ -21,7 +15,6 @@ body
   margin-right: auto;
   width: 97vw;
   height: 97vh;
-
 }
 
 h1
@@ -40,7 +33,6 @@ h2
   padding: 0;
 }
 
-
 a
 {
   text-decoration: none;
@@ -58,7 +50,6 @@ a:visited
   color: #d8dad9;
 }
 
-
 main
 {
   max-width: 900px;
@@ -66,8 +57,6 @@ main
   margin-right: auto;
   box-shadow: 30px 0px 40px rgba(0,0,0, 0.1),
   -30px 0px 40px rgba(0,0,0, 0.1);
-/*  width: 100vw;
-  height: 100vh;*/
 }
 
 #header
@@ -189,7 +178,8 @@ main
 
 #bar
 {
-  background-color: #24272e;
+  background-color: #3f4a60;
+ /* 24272e;*/
   width: 80%;
   height: 0.6rem;
   display: inline-block;
@@ -223,7 +213,7 @@ main
 /*  margin-left: auto;
   margin-right: auto;*/
  /* margin-top: 2rem;*/
-  margin-left: 0.20rem;
+  margin-left: 0.5rem;
 
 }
 

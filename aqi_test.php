@@ -112,8 +112,9 @@
         		</div>
 
         				<ol class="links">
-				<li><a href="https://www.windy.com/?51.755,19.550,5" target="_blank"><h3>windy</h3></a></li>
+				
 				<li><a href="http://pl.blitzortung.org/live_lightning_maps.php?map=17" target="_blank"><h3>blitzortung</h3></a></li>
+				<li><a href="https://www.windy.com/?51.755,19.550,5" target="_blank"><h3>windy</h3></a></li>
 				<li><a href="https://radiosondy.info/" target="_blank"><h3>radiosondy</h3></a></li>
 			</ol>
 
