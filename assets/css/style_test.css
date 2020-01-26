@@ -120,6 +120,15 @@ main
   fill:#d8dad9;
 }*/
 
+
+
+.climacon
+{
+  fill:#d8dad9;
+  }
+
+
+
 #celsius
 {
 
@@ -132,11 +141,20 @@ main
   float: left;
   width: 45%;
   margin-left: 2rem;
+
 /*  margin-top: 3rem;*/
 /*  box-sizing: border-box;
   border: 1px solid #fff;*/
 
 }
+
+#svg
+
+{
+     fill:#d8dad9;
+}
+
+
 #temp
 {
   float: right;
@@ -284,6 +302,8 @@ h3
   padding-bottom:0;
 
 }
+
+
 
 
 /*@media(max-width: 768px)
