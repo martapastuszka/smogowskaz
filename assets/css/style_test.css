@@ -139,7 +139,8 @@ main
 #img
 {
   float: left;
-  width: 45%;
+  width:45%;
+  height: 100%;
   margin-left: 2rem;
 
 /*  margin-top: 3rem;*/
@@ -303,10 +304,119 @@ h3
 
 }
 
+/*Media queries*/
+
+@media(min-width: 768px)
+{
+
+#header
+{
+  padding-bottom: 6rem;
+}
+
+h1
+{
+  font-size: 1.5rem;
+  margin-top: 2rem;
+
+}
+
+h2
+{
+  font-size: 1rem;
+  line-height: 2rem;
+}
+  
+#basic-parameters
+{
+  width: 68%;
+  float: left;
+}
 
 
+#celsius
+{
+  display: block;
+  float: right;
+  margin-left: 10rem;
+  width: 12%;
+  height: 12%;
+  margin-top: 0.3rem;
+  margin-left: 0;
+  margin-right: 4rem;
+}
 
-/*@media(max-width: 768px)
+#temp h1
+{
+  display: flex;
+  float: left;
+  margin-top: 0;
+}
+
+#img
+{
+  float: left;
+  width:70%;
+  height: 100%;
+  margin-left: 2rem;
+}
+
+#temp
+{
+  margin: 0;
+}
+
+
+#caqi
+{
+  margin-top: 16.5rem;
+}
+
+#other-parameters h2,
+#caqi h2
+{
+  font-size: 1rem;
+}
+
+#other-parameters p,
+#caqi p
+{
+ font-size: 1.2rem;
+ padding-top: 0.8rem;
+ padding-bottom: 2.2rem;
+}
+
+
+ol>li
+{
+   font-size: 1rem;
+   margin-top:5rem;
+   text-align: center;
+}
+
+ol
+{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+
+}
+
+
+#other-parameters
+{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 30%;
+  height: 40vh;
+  box-sizing: border-box;
+  border-left: 1px solid #d8dad9;
+}
+
+}
+
+/*@media(max-width: 768px) 
 {
   header #branding,
   header nav,
