@@ -416,39 +416,405 @@ ol
 
 }
 
-/*@media(max-width: 768px) 
+@media(min-width: 1024px) and (min-height: 768px)
 {
-  header #branding,
-  header nav,
-  header nav li,
-  #newsletter h1,
-  #newsletter form,
-  #boxes .box
-  {
-    float: none;
-    text-align: center;
-    width: 100%;
-  }
 
-  header
-  {
-    padding-bottom: 20px;
-  }
+#container
+{
+  margin-left: auto;
+  margin-right: auto;
+  width: 97vw;
+  height: 97vh;
+}
 
-  #showcase h1
-  {
-    margin-top:40px;
-  }
+#header
+{
+  padding-bottom: 0;
 
-  #newsletter button
-  {
-    display: block;
-    width: 100%;
-  }
+}
 
-  #newsletter form input[type="email"]
-  {
-    width: 100%;
-    margin-bottom: 5px;
-  }
-}*/
+h1
+{
+   margin-top: 1rem;
+}
+
+  
+#basic-parameters
+{
+  width: 60%;
+  float: left;
+  height: 40vh;
+}
+
+
+#celsius
+{
+  display: block;
+  float: right;
+  margin-left: 10rem;
+  width: 12%;
+  height: 12%;
+  margin-top: 0.1rem;
+  margin-left: 0;
+  margin-right: 4rem;
+}
+
+#temp h1
+{
+  display: flex;
+  float: left;
+  margin-top: 0;
+  margin-left: 2rem;
+}
+
+#img
+{
+  float: left;
+  width:70%;
+  height: 100%;
+  margin-left: 2rem;
+}
+
+#temp
+{
+  margin: 0;
+}
+
+
+#caqi
+{
+  margin-top: 16rem;
+}
+
+
+ol>li
+{
+   font-size: 1rem;
+   text-align: center;
+   padding-top: 0;
+   margin-top: 0;
+}
+
+ol
+{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.links
+{
+  margin-top: 8rem;
+  padding-top: 0;
+}
+
+
+#other-parameters
+{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 50%;
+  height: 55vh;
+  box-sizing: border-box;
+  border-left: 1px solid #d8dad9;
+}
+
+}
+
+@media(min-width: 1200px) 
+{
+
+main
+{
+  max-width: 1000px;
+}
+
+#container
+{
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+#header
+{
+  padding-bottom: 0;
+  margin-left: 2rem;
+
+}
+
+h1
+{
+   margin-top: 1rem;
+   font-size: 2rem;
+}
+
+h2
+{
+  font-size: 1.4rem;
+  line-height: 3rem;
+}
+
+  
+#basic-parameters
+{
+  width: 57%;
+  float: left;
+  height: 40vh;
+}
+
+
+#celsius
+{
+  display: block;
+  float: right;
+  margin-left: 10rem;
+  width: 12%;
+  height: 12%;
+  margin-top: 22rem;
+  margin-left: 0;
+  margin-right: 7rem;
+}
+
+#temp h1
+{
+  display: flex;
+  float: left;
+  margin-top: 22rem;
+  margin-left: 1rem;
+  font-size: 2rem;
+}
+
+#img
+{
+  float: left;
+  width:60%;
+  height: 100%;
+  margin-left: 0;
+}
+
+#temp
+{
+  margin: 0;
+}
+
+
+#caqi
+{
+  margin-top: 16rem;
+  width: 90%;
+}
+
+#bar
+{
+  width: 90%;
+}
+
+
+ol>li
+{
+   font-size: 1rem;
+   text-align: center;
+}
+
+ol
+{
+ /* margin-left: auto;
+  margin-right: auto;*/
+  text-align: center;
+  margin-top: 0;
+  padding-top: 0;
+  padding-left: 0;
+}
+
+.links
+{
+  margin-top: 8rem;
+  padding-top: 0;
+  margin-right: 20rem;
+}
+
+
+#other-parameters
+{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 20%;
+  height: 55vh;
+  box-sizing: border-box;
+  border-left: 1px solid #d8dad9;
+}
+
+@media(min-width: 1920px) 
+{
+
+main
+{
+  max-width: 1600px;
+}
+
+#container
+{
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100vw;
+  height: 100vh;
+}
+
+#header
+{
+  padding-bottom: 0;
+
+}
+
+h1
+{
+   margin-top: 1rem;
+   font-size: 2rem;
+}
+
+  
+#basic-parameters
+{
+  width: 57%;
+  float: left;
+  height: 40vh;
+}
+
+
+
+
+#celsius
+{
+  display: block;
+  float: right;
+  margin-left: 10rem;
+  width: 12%;
+  height: 12%;
+  margin-top: 34rem;
+  margin-left: 0;
+  margin-right: 10rem;
+}
+
+#temp h1
+{
+  display: flex;
+  float: left;
+  margin-top: 34rem;
+  margin-left: 2.5rem;
+  font-size: 3rem;
+}
+
+#img
+{
+  float: left;
+  width:60%;
+  height: 100%;
+  margin-left: 0;
+}
+
+#temp
+{
+  margin: 0;
+}
+
+
+#caqi
+{
+  margin-top: 30rem;
+  width: 90%;
+}
+
+#caqi h2
+{
+  letter-spacing: 2px;
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+#caqi p
+{
+ font-size: 1.7rem;
+ margin: 0;
+ padding-top: 0.5rem;
+ padding-bottom: 0.3rem;
+ font-weight: 600;
+ display: inline-block;
+ text-align: center;
+}
+
+
+#bar
+{
+  width: 90%;
+}
+
+
+ol>li
+{
+   font-size: 1.6rem;
+   text-align: center;
+}
+
+ol
+{
+ /* margin-left: auto;
+  margin-right: auto;*/
+  text-align: center;
+  margin-top:2rem;
+  padding-top: 2rem;
+  padding-left: 0;
+}
+
+.links
+{
+  margin-top: 10rem;
+  padding-top: 3rem;
+  margin-right: 20rem;
+}
+
+
+#other-parameters
+{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  width: 20%;
+  height: 55vh;
+  box-sizing: border-box;
+  border-left: 1px solid #d8dad9;
+  margin-left: 2rem;
+}
+
+#other-parameters h2
+{
+  letter-spacing: 1.3px;
+  font-size: 1.4rem;
+  text-transform: lowercase;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#other-parameters p
+{
+ font-size: 1.7rem;
+ margin: 0;
+ padding-top: 0.5rem;
+ padding-bottom: 2rem;
+ font-weight: 600;
+ text-align: center;
+
+}
+
+}
+
+
