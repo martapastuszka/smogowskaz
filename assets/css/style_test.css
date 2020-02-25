@@ -13,8 +13,10 @@ body
 {
   margin-left: auto;
   margin-right: auto;
-  width: 97vw;
-  height: 97vh;
+  width: 100%;
+ /* height: 97vh;*/
+  /*width: 97vw;
+  height: 97vh;*/
 }
 
 h1
@@ -52,7 +54,7 @@ a:visited
 
 main
 {
-  max-width: 900px;
+  max-width: 340px;
   margin-left: auto;
   margin-right: auto;
   box-shadow: 30px 0px 40px rgba(0,0,0, 0.1),
@@ -309,6 +311,12 @@ h3
 @media(min-width: 768px)
 {
 
+main
+{
+  max-width: 600px;
+
+}
+
 #header
 {
   padding-bottom: 6rem;
@@ -343,7 +351,7 @@ h2
   height: 12%;
   margin-top: 0.3rem;
   margin-left: 0;
-  margin-right: 4rem;
+  margin-right: 4.4rem;
 }
 
 #temp h1
@@ -369,8 +377,8 @@ h2
 
 #caqi
 {
-  margin-top: 16.5rem;
-}
+  margin-top: 14rem;
+ }
 
 #other-parameters h2,
 #caqi h2
@@ -409,22 +417,30 @@ ol
   flex-direction: column;
   float: left;
   width: 30%;
-  height: 40vh;
+  height: 60vh;
   box-sizing: border-box;
   border-left: 1px solid #d8dad9;
 }
 
 }
 
-@media(min-width: 1024px) and (min-height: 768px)
+@media(min-width: 1024px) /*and (min-height: 768px)*/
 {
+
+main
+{
+  max-width: 1000px;
+  margin:0;
+  padding: 0;
+}
+
 
 #container
 {
   margin-left: auto;
   margin-right: auto;
-  width: 97vw;
-  height: 97vh;
+  width: 100%;
+  /*height: 100%;*/
 }
 
 #header
@@ -443,7 +459,7 @@ h1
 {
   width: 60%;
   float: left;
-  height: 40vh;
+  /*height: 40%;*/
 }
 
 
@@ -483,7 +499,32 @@ h1
 
 #caqi
 {
+  margin:0;
   margin-top: 16rem;
+
+}
+
+#bar
+{
+  background-color: #3f4a60;
+ /* 24272e;*/
+  width: 80%;
+  height: 0.6rem;
+  display: inline-block;
+  border-radius: 50px;
+  position: relative;
+}
+
+#bar div
+{
+  background-color: #00ff00;
+  width: 40%;
+  height: 0.6rem;
+  display: inline-block;
+  border-radius: 50px;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 
@@ -516,10 +557,14 @@ ol
   display: flex;
   flex-direction: column;
   float: left;
-  width: 50%;
+  width: 39%;
   height: 55vh;
   box-sizing: border-box;
   border-left: 1px solid #d8dad9;
+  padding-left: 0;
+  padding-right: 0;
+  text-align: center;
+  justify-content: center;
 }
 
 }
@@ -529,16 +574,18 @@ ol
 
 main
 {
-  max-width: 1000px;
+  max-width: 900px;
+  margin:0;
+  padding:0;
 }
 
 #container
 {
-  margin-top: 2rem;
+/*  margin-top: 2rem;*/
   margin-left: auto;
   margin-right: auto;
-  width: 100vw;
-  height: 100vh;
+  width: 100%;
+  height: 50%;
 }
 
 #header
@@ -563,7 +610,7 @@ h2
   
 #basic-parameters
 {
-  width: 57%;
+  width: 60%;
   float: left;
   height: 40vh;
 }
@@ -576,18 +623,22 @@ h2
   margin-left: 10rem;
   width: 12%;
   height: 12%;
-  margin-top: 22rem;
+  margin-top: 14rem;
   margin-left: 0;
   margin-right: 7rem;
 }
+
+
 
 #temp h1
 {
   display: flex;
   float: left;
-  margin-top: 22rem;
+  margin-top: 0;
+  padding-top: 0;
   margin-left: 1rem;
-  font-size: 2rem;
+  font-size: 1rem;
+
 }
 
 #img
@@ -600,14 +651,18 @@ h2
 
 #temp
 {
-  margin: 0;
+/*  margin-top: 10rem;*/
+/*height: 20vh;*/
 }
 
 
 #caqi
 {
-  margin-top: 16rem;
+ /* margin-top: 12rem;*/
   width: 90%;
+  margin-top: 16rem;
+  padding-top: 0;
+
 }
 
 #bar
@@ -620,6 +675,7 @@ ol>li
 {
    font-size: 1rem;
    text-align: center;
+   justify-content: center;
 }
 
 ol
@@ -630,33 +686,44 @@ ol
   margin-top: 0;
   padding-top: 0;
   padding-left: 0;
+  margin-right: 0;
+  justify-content: center;
 }
 
 .links
 {
   margin-top: 8rem;
   padding-top: 0;
-  margin-right: 20rem;
+  /*margin-right: 16rem;*/
+  text-align: center;
+  justify-content: center;
 }
 
+ol.links
+{
+  margin:0;
+  margin-top: 8rem;
+  padding: 0;
+}
 
 #other-parameters
 {
   display: flex;
   flex-direction: column;
   float: left;
-  width: 20%;
-  height: 55vh;
+  width: 50%;
+ /* height: 60vh;*/
   box-sizing: border-box;
   border-left: 1px solid #d8dad9;
+  padding-left: 10rem;
 }
 
-@media(min-width: 1920px) 
+@media(min-width: 1920px), (max-height: 1080px)
 {
 
 main
 {
-  max-width: 1600px;
+  max-width: 1200px;
 }
 
 #container
@@ -683,9 +750,9 @@ h1
   
 #basic-parameters
 {
-  width: 57%;
+  width: 60%;
   float: left;
-  height: 40vh;
+  height: 100%;
 }
 
 
@@ -707,9 +774,10 @@ h1
 {
   display: flex;
   float: left;
-  margin-top: 34rem;
+/*  margin-top: 34rem;*/
   margin-left: 2.5rem;
   font-size: 3rem;
+  padding-top: 0;
 }
 
 #img
@@ -723,6 +791,7 @@ h1
 #temp
 {
   margin: 0;
+/*  height: 50%;*/
 }
 
 
