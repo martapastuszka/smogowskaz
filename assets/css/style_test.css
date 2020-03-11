@@ -55,14 +55,6 @@ main
  
 }
 
-#header
-{
-  /*border: 1px solid white;
-  box-sizing: border-box;*/
-
-}
-
-/*W header text i h1 i h2 jest powtarzanie się*/
 #header-text
 {
 /*  height: 10vh;*/
@@ -73,19 +65,6 @@ main
   padding-top: 2rem;
   line-height: 1.2rem;
 }
-
-/*#basic-parameters
-{
-   width: 100%;
-   border: 1px solid green;
-  box-sizing: border-box;
-}
-*/
-/*#basic-parameters h1
-{
-  font-size: 1.7rem;
-  font-weight: 400;
-}*/
 
 #basic-parameters
 {
