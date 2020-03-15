@@ -4,7 +4,12 @@ html {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+
+
+height: 100%;
+  display: grid;
 }
+
 
 body
 {
@@ -16,6 +21,8 @@ body
 /*  background-repeat: no-repeat;*/
   font-family: 'Montserrat', sans-serif;
   color: #d8dad9;
+  height: 100%;
+  display: grid;
 }
 
 
@@ -40,7 +47,7 @@ h2
 h3
 {
   font-weight: 400;
-  font-size: 0.45rem;
+  font-size: 0.6rem;
   margin: 0;
   padding: 0;
 }
@@ -64,14 +71,23 @@ a:visited
 
 main
 {
-  max-width: 340px;
- /* box-sizing: border-box;
+ /* max-width: 400px;*/
+
+/*  box-sizing: border-box;
   border: 1px solid white;*/
-  margin-left: auto;
+/*  margin-left: auto;
   margin-right: auto;
+  margin-top: auto;*/
   box-shadow: 30px 0px 40px rgba(0,0,0, 0.1),
   -30px 0px 40px rgba(0,0,0, 0.1);
- 
+  margin: auto;
+  padding: 20px;
+
+ /* width: 340px;
+  height: 500px;*/
+/*  padding: 20px;*/
+
+
 }
 
 #header-text
@@ -221,20 +237,23 @@ main
 ol>li
 {
   text-align: center;
-  font-size: 0.65rem;
+  justify-content: center;
+ /* font-size: 0.65rem;*/
   font-weight: 400;
   display: inline-block;
   text-decoration: none;
   margin-top: 1rem;
   padding-left:0;
+
 }
 
 ol
 {
-  margin-left: auto;
-  margin-right: auto;
+ /* margin-left: auto;
+  margin-right: auto;*/
   padding-left: 1rem;
-
+  justify-content: center;
+  text-align: center;
 }
 
 
@@ -251,12 +270,29 @@ h3
 
 @media (min-width: 530px){
 
-main
+html { 
+  display: block;
+  justify-content: center;
+}
+
+body
 {
+
+  display: block;
+  justify-content: center;
+}main
+{
+
+
   max-width: 500px;
 /*  box-sizing: border-box;
   border: 1px solid white;*/
+margin-left: auto;
+margin-right:auto;
+
  }
+
+
 
 #basic-parameters
 {
@@ -312,6 +348,10 @@ main
   text-align: center;
 }
 
+ h3
+{
+   font-size: 0.7rem;
+}
 
 /*Media queries*/
 
@@ -355,11 +395,22 @@ main
 
 @media (min-width: 760px){
 
+html { 
+  display: block;
+}
+
+body
+{
+
+  display: block;
+}
+
 main
 {
   max-width: 700px;
 /*  box-sizing: border-box;
   border: 1px solid white;*/
+  margin:auto;
  }
 
  h1
@@ -374,6 +425,12 @@ h2
   font-size: 0.9rem;
 
 
+}
+
+ h3
+{
+   font-size: 0.9rem;
+   padding-bottom: 1rem;
 }
 #temp h1
 {
@@ -414,11 +471,25 @@ ol>li
 
 @media (min-width: 1024px){
 
+
+html { 
+  display: block;
+}
+
+body
+{
+
+  display: block;
+}
 main
+
+
 {
   max-width: 900px;
 /*  box-sizing: border-box;
   border: 1px solid white;*/
+  margin: auto;
+padding-bottom: 0;
  }
 
  #img
@@ -441,6 +512,11 @@ main
 #other-parameters h2
 {
   font-size: 1rem;
+}
+
+ h3
+{
+   font-size: 1rem;
 }
 
 #other-parameters p
@@ -477,11 +553,27 @@ main
 
 @media (min-width: 1280px){
 
+
+html { 
+  display: block;
+}
+
+body
+{
+
+  display: block;
+}
+
 main
 {
   max-width: 1100px;
 /*  box-sizing: border-box;
   border: 1px solid white;*/
+ margin-left: auto;
+ margin-right: auto;
+
+
+
 }
 
 #temp h1
@@ -506,14 +598,13 @@ ol>li
   font-size: 1.2rem;
  }
 
+  h3
+{
+   font-size: 1.2rem;
+}
+
 
  }
 
  
 
-@media (max-width: 324px){
-body
-{
-  display: none;
-}
-}
