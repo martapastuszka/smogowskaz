@@ -518,7 +518,7 @@ left: 50%;
   top: 50%;
     transform: translate(-50%, -50%);
   width: 90%;
-  height: 80%;
+/*  height: 80%;*/
 
 
  }
@@ -599,7 +599,7 @@ ol
 
 html { 
   display: block;
-
+margin:0;
 }
 
 body
@@ -607,7 +607,7 @@ body
 
   display: block;
   position: relative;
-  margin:0;
+/*  margin:0;*/
 }
 
 main
@@ -622,7 +622,7 @@ left: 50%;
   top: 50%;
     transform: translate(-50%, -50%);
   width: 90%;
-  height: 80%;
+/*  height: 80%;*/
 
 
 
@@ -653,6 +653,7 @@ left: 50%;
 ol
 {
   margin-top: 1rem;
+ margin-bottom: 1rem;
 }
 ol>li
 {
@@ -662,7 +663,7 @@ ol>li
   h3
 {
    font-size: 1.2rem;
-/*   padding-top: 4rem;*/
+   
 
 }
 
