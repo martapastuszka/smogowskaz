@@ -94,12 +94,17 @@ main
 
 
 
+
  /* width: 340px;
   height: 500px;*/
 /*  padding: 20px;*/
 
 align-self:center;
 
+}
+
+.climacon {
+  fill: #d8dad9;
 }
 
 #header-text
