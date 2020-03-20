@@ -16,6 +16,7 @@ body
   justify-content: center;
   align-items: center;
   margin:0;
+  background-attachment: fixed;
 }
 
 #front-text {
@@ -110,8 +111,17 @@ main
   margin: auto;
   padding: 20px;
   align-self:center;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+}
+
+#main-overlay
+{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .15);  
+  backdrop-filter: blur(8px);
 }
 
 .climacon {
