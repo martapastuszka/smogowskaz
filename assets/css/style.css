@@ -22,8 +22,8 @@ body
 {
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  color: white;
-  border: 3px solid #d8dad9;
+  color: #d8dad9;
+  border: 1.5px solid #d8dad9;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -59,14 +59,22 @@ body
   border: 0;
   text-align: center;
   font-weight: bold;
-  color: black;
+  color: #3f4a60;
   font-size:1rem;
+  cursor: pointer;
+  outline: none;
+}
+
+#next-btn:hover
+{
+  background-color: #00cc00;
 }
 
 .cookie-buttons
 {
   display: flex;
- flex-wrap: wrap;
+  flex-wrap: wrap;
+  outline: none;
 }
 
 #ok-btn
@@ -81,6 +89,13 @@ body
   color: black;
   margin-right: 10px;
   font-size:0.95rem;
+  cursor: pointer;
+  outline: none;
+}
+
+#ok-btn:hover
+{
+  background-color: #00cc00;
 }
 
 #forget-btn
@@ -94,6 +109,14 @@ body
   font-weight: bold;
   color: black;
   margin-top: 15px;
+  font-size:0.8rem;
+  cursor: pointer;
+  outline: none;
+}
+
+#forget-btn:hover
+{
+  background-color: #2e3a50;
 }
 
 h1
@@ -176,21 +199,19 @@ main
 {
    width: 100%;
    margin-top: 1rem;
-  /* border: 1px solid yellow;
-  box-sizing: border-box;*/
 }
 
 #img
 {
-/*  float: left;*/
+  float: left;
   width:45%;
 }
 
 #temp
 {
   float: right;
-  margin-top: 4rem;
-  margin-right: 2.2rem;
+  margin-top: 3.5rem;
+  margin-right: 1rem;
 }
 
 #caqi 
@@ -326,12 +347,19 @@ main
 #forget-btn
 {
   width: 20%;
+  font-size: 0.7rem;
+}
+
+#front-text
+{
+  border: 3px solid #d8dad9;
 }
 
 #front-text h1
 {
   font-size: 1.4rem;
   font-weight: bold;
+
 }
 
 #p-front
@@ -409,6 +437,11 @@ main
 {
   max-width: 700px;
   margin: 0 auto;
+}
+
+#forget-btn
+{
+  font-size:0.95rem;
 }
 
 h1
