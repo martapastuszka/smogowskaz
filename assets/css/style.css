@@ -16,6 +16,8 @@ body
   justify-content: center;
   align-items: center;
   margin:0;
+  background-attachment: fixed;
+  position: relative;
 }
 
 #front-text
@@ -168,7 +170,7 @@ main
   margin: auto;
   padding: 20px;
   align-self:center;
-}
+ }
 
 #main-overlay
 {
@@ -179,11 +181,14 @@ main
   bottom: 0;
   background-color: rgba(0, 0, 0, .15);  
   backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  layout.css.backdrop-filter.enabled = true;
 }
 
 .climacon {
   fill: #d8dad9;
 }
+
 
 #header-text
 {
@@ -205,6 +210,8 @@ main
 {
   float: left;
   width:45%;
+  margin-right:0;
+  padding-right:0;
 }
 
 #temp
