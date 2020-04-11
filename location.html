@@ -13,25 +13,37 @@
   <script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"
         integrity="sha512-QVftwZFqvtRNi0ZyCtsznlKSWOStnDORoefr1enyq5mVL4tmKB3S/EnC3rRJcxCPavG10IcrVGSmPh6Qw5lwrg=="
         crossorigin="">
+
+        
   </script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,500i,600,600i,700&display=swap&subset=latin-ext" rel="stylesheet">
 
   <title>Smogowskaz v1.0</title>
 </head>
 
 <body>
-<p>
-<div>wpisz adres:</div>
-<div><input type="text" id="address"> <button type="button" onclick="onButtonClick()">Szukaj</button> </div>
-</p>
-<div>lub wskaż lokalizację</div>
-<div id="map" style="height: 500px; width: 500px;"></div>
-<div id="valid">?</div>
-<div id="lat">?</div>
-<div id="lng">?</div>
-<div><input type="button" id="btSubmit" onclick="location.href='/parser/addNode/'+lat+'/'+lng+'/'+encodeURIComponent(description);" value="Zapisz" disabled /></div>
+	<main>
+		<div id="adress-wrapper">
+			<div id="adress-head">
+				<h1>Wpisz adres poniżej lub wskaż lokalizację na mapie</h1>
+			</div>
+			<div id="adress-find">
+				<input type="text" id="address" placeholder="Łódź, Rokicińska 11"> 
+				<button type="button" id="find-btn" onclick="onButtonClick()">Szukaj</button> 
+			</div>
+	<!-- 		<div id="valid">?</div> -->
+<!-- 			<div id="lat">?</div>
+			<div id="lng">?</div> -->
 
-
+			<div id="map"></div>
+			
+			<div><input type="button" id="btSubmit" onclick="location.href='/parser/addNode/'+lat+'/'+lng+'/'+encodeURIComponent(description);" value="Zapisz" disabled />
+			</div>
+		</div>
+	</main>
 
 <script>
   var map = L.map('map').setView([52.08, 19.5], 6);
@@ -95,9 +107,9 @@
       });
   }
 
-  L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token=pk.eyJ1IjoibWFwYm94IiwiYSI6ImNpejY4NXVycTA2emYycXBndHRqcmZ3N3gifQ.rJcFIG214AriISLbB6B5aw', {
-    maxZoom: 18,
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, ' +
+  L.tileLayer('https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png', {
+	maxZoom: 20,
+    attribution: '&copy; <a href="https://stadiamaps.com/">Stadia Maps</a>, &copy; <a href="https://openmaptiles.org/">OpenMapTiles</a> &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors' +
       '<a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
       'Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
     id: 'mapbox.streets'
